@@ -1,0 +1,14 @@
+type Query {
+  info: String!
+  getUserDetails : User!
+}
+
+type Mutation {
+  addProfilePicture(uri : String!) : String!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+}
